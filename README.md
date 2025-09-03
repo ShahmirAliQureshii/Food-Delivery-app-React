@@ -1,12 +1,97 @@
-# React + Vite
+# 🍅 Tomato – Food Delivery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Food Delivery Frontend Website** built with **React.js**.  
+Tomato allows users to explore delicious dishes, browse categories, and interact with a clean UI designed for an amazing food ordering experience.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [Tomato Food App](https://tomato-app-food.vercel.app)
+📂 **GitHub Repository**: [View Code](https://github.com/ShahmirAliQureshii/Food-Delivery-app-React)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🏠 **Home Page** – Hero section with a call to action for ordering food.
+- 🍽️ **Menu Page** – Explore different categories like Salads, Rolls, Sandwiches, Desserts, Cakes, Pasta, and more.
+- 📱 **Mobile-App Page** – Highlights the availability of the app.
+- 📞 **Contact Page** – Get in touch for queries.
+- 🛒 **Cart System (UI only)** – Add and manage items in your cart.
+- 🔑 **Authentication UI** – Sign in & Sign up modal form.
+- ❌ **Error Handling Page** – Custom error page when a route doesn’t exist.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./public/home.png)
+
+### Explore Menu Page
+
+![Explore Menu Page](./public/Exploremenu.png)
+
+### Menu Page
+
+![Menu Up](./public/menu.png)
+
+### Mobile App
+
+![Mobile App](./public/app.png)
+
+### Cart Page
+
+![Cart](./public/cart.png)
+
+### Cart Total
+
+![Cart Total](./public/cartTotal.png)
+
+### Sign Up Modal
+
+![Sign Up](./public/signUp.png)
+
+### Sign Up Modal
+
+![Login](./public/Login.png)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js
+- **Styling**: CSS
+- **Deployment**: Vercel
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+
+```bash
+git clone https://github.com/ShahmirAliQureshii/Food-Delivery-app-React.git
+```
+
+# Navigate into the project folder
+
+```bash
+cd Food-Delivery-app-React
+```
+
+# Install dependencies
+
+```bash
+npm install
+```
+
+# Run the development server
+
+```bash
+npm run dev
+```
+
+Project will start at http://localhost:5173 (Vite default).
+
+📌 Future Improvements
+🗄️ Connect with backend & database for real-time data.
+
+🛍️ Enable order placement & payment gateway.
+
+📱 Make it a complete full-stack food delivery application.
+
+👨‍💻 Author
+Made with ❤️ by Shahmir Ali Qureshi
